@@ -11,7 +11,13 @@ module Squares
     end
 
     def self.sum_of_squares(num)
-    
+        count = 0
+        result = 0
+        while count <= num
+            result += count**2 
+            count += 1 
+        end
+        return result
     end
 
     def self.difference_of_squares(num)
