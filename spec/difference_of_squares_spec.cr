@@ -26,15 +26,15 @@ describe "DifferenceOfSquares" do
     Squares.sum_of_squares(100).should eq(338350)
   end
 
-  pending "calculates difference of squares 1 is 0" do
+  it "calculates difference of squares 1 is 0" do
     Squares.difference_of_squares(1).should eq(0)
   end
 
-  pending "calculates difference of squares 5 is 170" do
+  it "calculates difference of squares 5 is 170" do
     Squares.difference_of_squares(5).should eq(170)
   end
 
-  pending "calculates difference of squares 100 is 25164150" do
+  it "calculates difference of squares 100 is 25164150" do
     Squares.difference_of_squares(100).should eq(25164150)
   end
 end
